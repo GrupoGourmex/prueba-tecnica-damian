@@ -622,7 +622,7 @@ export default function App() {
 
       {/* NAV */}
       <nav>
-        <a href="#" className="logo">
+        <a href="/" className="logo">
           <div className="logo-icon">F</div>
           Funnel<span>Fast</span>
         </a>
@@ -980,9 +980,9 @@ export default function App() {
       <footer>
         <div className="footer-logo">Funnel<span>Fast</span></div>
         <div className="footer-links">
-          <a href="#">Política de privacidad</a>
-          <a href="#">Términos de uso</a>
-          <a href="#">Contacto</a>
+          <a href="/privacidad">Política de privacidad</a>
+          <a href="/terminos">Términos de uso</a>
+          <a href="/contacto">Contacto</a>
           <a href="#reservar">Reservar sesión</a>
         </div>
         <p className="footer-copy">© 2026 FunnelFast · Damián Velázquez. Todos los derechos reservados.</p>
